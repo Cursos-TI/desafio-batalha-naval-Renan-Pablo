@@ -23,15 +23,25 @@ int main() {
         }
     }
 
-    // Coloca navio na horizontal
+    // navio na horizontal
     tabuleiro[1][1] = 3;
     tabuleiro[1][2] = 3;
     tabuleiro[1][3] = 3;
 
-    // Coloca navio na vertical
+    // navio na vertical
     tabuleiro[4][4] = 3;
     tabuleiro[5][4] = 3;
     tabuleiro[6][4] = 3;
+
+    // 1° navio na diagonal
+    tabuleiro[2][7] = 3;
+    tabuleiro[1][8] = 3;
+    tabuleiro[0][9] = 3;
+
+    // 2° navio na diagonal
+    tabuleiro[4][7] = 3;
+    tabuleiro[5][8] = 3;
+    tabuleiro[6][9] = 3;
 
     // Imprime o tabuleiro com números
     for(i = 0; i < 10; i++) {

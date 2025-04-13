@@ -22,7 +22,7 @@ Após o posicionamento, o sistema deve exibir as coordenadas dos navios de forma
 No nível Aventureiro, você expandirá o tabuleiro e adicionará mais navios, incluindo posicionamentos na diagona
 ### 🆕 Diferença em relação ao Nível Novato:
 - **Tabuleiro 10x10:** O tabulerá expandido para uma matriz 10x10.
-- **Posicionamento de Quatro Na** O sistema deverá posicionar quatro navios, incluindo dois na diagonal.
+- **Posicionamento de Quatro Navio** O sistema deverá posicionar quatro navios, incluindo dois na diagonal.
 - **Exibição Completa do Tabuleir* O sistema exibirá toda a matriz, onde 0 indica uma posição sem navio e 3 indica uma posição ocupada
 ### 🚩 Novas Funcionalidade
 - **Matriz 10x10:** Implementação de uma matrizior para representar o tabuleiro.
